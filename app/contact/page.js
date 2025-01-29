@@ -17,13 +17,15 @@ export default function Contact() {
                                         <path d="M46.4242 16.4252L37.5742 7.5752" stroke="#E3FF04" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                     <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
-                                        Phone &amp; Fax
+                                        Phone 
+                                        {/* &amp; Fax */}
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Mobile : +197 -90 - 56 - 780
+                                        Mobile : +880 13068 - 91479
                                     </span>
                                     <span className="msub">
-                                        Fax : +44-208-1234567
+                                        Mobile : +880 17427 - 35416
+                                        {/* Fax : +44-208-1234567 */}
                                     </span>
                                 </div>
                             </div>
@@ -36,10 +38,10 @@ export default function Contact() {
                                         Mail Address
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Info.company@gmail.com
+                                        inoveticait@gmail.com
                                     </span>
                                     <span className="msub">
-                                        Info.company@yahoo.com
+                                        info@inovetica.com
                                     </span>
                                 </div>
                             </div>
@@ -52,10 +54,10 @@ export default function Contact() {
                                         Our Location
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Mobile : 85 Ketch Harbour
+                                        Block - G, Banasree
                                     </span>
                                     <span className="msub">
-                                        RoadBensalem, PA 19020
+                                        Dhaka - 1219
                                     </span>
                                 </div>
                             </div>
@@ -68,10 +70,10 @@ export default function Contact() {
                                         Office Hour
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Sun - Thu 09 am - 06pm
+                                        Sun - Thu 04 pm - 11pm
                                     </span>
                                     <span className="msub">
-                                        Fri - Sat 4 pm - 10pm
+                                        Fri - Sat 9 am - 10pm
                                     </span>
                                 </div>
                             </div>
@@ -79,7 +81,9 @@ export default function Contact() {
                         <div className="row g-xxl-7 g-4">
                             <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={2000}>
                                 <div className="contact-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52816169.558200695!2d-161.49265223136007!3d36.102185713814805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1711689726724!5m2!1sen!2sbd" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935665.1383704769!2d89.4891684746782!3d23.642249983466392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1737913276870!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52816169.558200695!2d-161.49265223136007!3d36.102185713814805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1711689726724!5m2!1sen!2sbd" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" /> */}
                                 </div>
                             </div>
                             <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={2000}>

@@ -305,7 +305,7 @@ export default function Footer4() {
                     <div className="container">
                         <div className="text-sm-start text-center d-sm-flex gap-sm-0 gap-2 d-grid align-items-center justify-content-sm-between justify-content-center">
                             <p className="pra-clr">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Xstar</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Inovetica</Link>
                             </p>
                             <Link href="/#" className="pra-clr">
                                 Terms &amp; Conditions Privacy Policy

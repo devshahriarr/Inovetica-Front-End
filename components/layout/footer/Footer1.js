@@ -211,7 +211,7 @@ export default function Footer1() {
                             <i className="fas fa-arrow-up" />
                         </Link>
                         <p className="pra-clr">
-                            © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Xstar</Link>
+                            © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Inovetica</Link>
                         </p>
                     </div>
                 </div>
