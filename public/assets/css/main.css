@@ -751,13 +751,17 @@ footer {
 }
 
 .header-section .brand-logo {
-    max-width: 265px;
+    max-width: 200px;
+}
+.header-section .brand-logo img {
+    margin-top: -10px;
 }
 
 @media (max-width: 1199px) {
     .header-section .brand-logo {
         max-width: 100px;
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -773,6 +777,9 @@ footer {
 @media (max-width: 991px) {
     .header-section .main-navbar .navbar-toggle-item {
         display: none;
+    }
+    .header-section .brand-logo img {
+        margin-top: 0px;
     }
 }
 
