@@ -33,6 +33,12 @@
   @media (max-width: 600px) {
     .sphere-animation {
       width: 80%;
+      padding-left: 40px;
+      padding-top: 50px;
     }
+
+    .sphere {
+        width: 50%;
+      }
   }
   

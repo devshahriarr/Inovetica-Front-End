@@ -1914,6 +1914,7 @@ footer {
     bottom: 108px;
     right: 120px;
     animation: updown 10s linear infinite;
+    z-index: 2;
 }
 
 @media (max-width: 1399px) {
