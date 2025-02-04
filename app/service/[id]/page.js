@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ServiceDetailsPage = ({ params }) => {
     console.log(params);
     return (
