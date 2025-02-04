@@ -1848,11 +1848,25 @@ footer {
 }
 
 .hero-section-version4 {
-    background: url(../img/banner/banner4.png) no-repeat center center;
+    /* background: url(../img/banner/banner4.png) no-repeat center center; */
     background-size: cover;
     padding: 250px 2px 220px;
+    position: relative;
+    overflow: hidden;
 }
 
+.globe-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Globe কে অন্যান্য কন্টেন্টের পিছনে রাখুন */
+}
+.hero-section-version4 .hero-v4-content {
+    position: relative;
+    z-index: 2;
+}
 .hero-section-version4 .hero-v4-content h1 span {
     font-family: var(--jakarta);
     font-size: 100px;
