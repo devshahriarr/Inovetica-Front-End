@@ -30,6 +30,53 @@ export default function Testimonial1() {
 
             <section className="testimonial-version01-section pt-20 pb-space position-relative">
                 <div className="container">
+                <div className="row g-md-5 g-6 align-items-end justify-content-between bb-border pb-xxl-15 pb-lg-10 pb-9 mb-xxl-15 mb-lg-10 mb-9">
+                        <div className="col-lg-7">
+                            <div className="d-flex align-items-center justify-content-between flex-wrap gap-5">
+                                <div className="pricing-title">
+                                    <div className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5" data-aos="zoom-in-left" data-aos-duration={1500}>
+                                        Testimonials
+                                    </div>
+                                    <h2 className="stitle" data-aos="zoom-in" data-aos-duration={1800}>
+                                        Some Of Our <span className="fw-400">Respected</span> Happy Clients Say
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4" data-aos="zoom-in-right" data-aos-duration={1600}>
+                            <div className="d-flex justify-content-md-end">
+                                <div className="d-flex align-items-center gap-3">
+                                    <ul className="customer-man d-flex align-items-center">
+                                        <li>
+                                            <img src="/assets/img/team/avatar1.png" alt="img" />
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/team/avatar2.png" alt="img" />
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/team/avatar3.png" alt="img" />
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/team/avatar4.png" alt="img" />
+                                        </li>
+                                    </ul>
+                                    <div className="review-cont">
+                                        <div className="d-flex align-items-center gap-2 mb-xl-2 mb-1">
+                                            <i className="fa-solid fa-star" />
+                                            <i className="fa-solid fa-star" />
+                                            <i className="fa-solid fa-star" />
+                                            <i className="fa-solid fa-star" />
+                                            <i className="fa-regular fa-star" />
+                                        </div>
+                                        <span className="texts">
+                                            450+ reviews
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div className="row g-4">
                         <div className="col-lg-11">
                             <div className="swiper testimonial-version01 position-relative">

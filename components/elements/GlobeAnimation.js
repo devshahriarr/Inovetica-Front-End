@@ -91,7 +91,7 @@ const GlobeAnimation = () => {
         shadowAnimation.play();
     }, []);
     return (
-        <div className="animation-wrapper justify-content-end">
+        <div className="animation-wrapper ">
             <div className="sphere-animation">
                 <svg className="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
                     <defs>

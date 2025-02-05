@@ -4,7 +4,7 @@ export default function TextSLider3() {
     return (
         <>
 
-            <div className="digital-solution home-onetext pb-20 mb-xxl-5">
+            <div className="digital-solution home-onetext py-20 mb-xxl-5">
                 <div className="mycustom-marque">
                     <div className="scrolling-wrap">
                         <div className="comm">

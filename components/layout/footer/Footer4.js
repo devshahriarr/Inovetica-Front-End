@@ -1,44 +1,4 @@
-
-
-'use client'
-
-
 import Link from "next/link"
-import { Autoplay, Navigation, Pagination } from "swiper/modules"
-import { Swiper, SwiperSlide } from "swiper/react"
-
-const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation],
-    spaceBetween: 30,
-    speed: 1500,
-    loop: true,
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        type: "fraction",
-    },
-
-    breakpoints: {
-        1199: {
-            slidesPerView: 5,
-        },
-        991: {
-            slidesPerView: 4,
-        },
-        767: {
-            slidesPerView: 4,
-        },
-        500: {
-            slidesPerView: 3,
-        },
-        320: {
-            slidesPerView: 3,
-        },
-    },
-}
 
 export default function Footer4() {
     return (
@@ -46,66 +6,7 @@ export default function Footer4() {
 
             <footer className="footer-version-four bg2-clr">
                 <div className="container position-relative">
-                    <div className="footer-topversion-one pt-20 pb-20">
-                        <div className="footer-client mb-20 ">
-                            <h5 className="trusted white">
-                                Our Trusted Clients
-                            </h5>
-                            <div className="swiper trusted-inner">
-                                <Swiper {...swiperOptions} className="swiper-wrapper">
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c3.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c4.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c3.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c4.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                </Swiper>
-                            </div>
-                        </div>
+                    <div className="footer-topversion-one  pb-20">
                         <div className="row gy-lg-0 gy-10 mt-xxl-5 mb-xxl-5 justify-content-sm-between justify-content-center pt-xxl-5">
                             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer-widget">
@@ -303,7 +204,7 @@ export default function Footer4() {
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom-version-two bg1-clr py-xxl-10 py-xl-8 py-lg-7 py-6">
+                <div className="footer-bottom-version-two bg1-clr py-xxl-8 py-xl-5 py-lg-5 py-3">
                     <div className="container">
                         <div className="text-sm-start text-center d-sm-flex gap-sm-0 gap-2 d-grid align-items-center justify-content-sm-between justify-content-center">
                             <p className="pra-clr">

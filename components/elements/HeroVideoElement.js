@@ -11,7 +11,7 @@ const HeroVideoElement = () => {
                     With <span className="italic">Experience</span>
                 </span>
             </h1>
-            <VideoPopup style={1} />
+            {/* <VideoPopup style={1} /> */}
         </div>
     );
 };

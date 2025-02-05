@@ -1,13 +1,30 @@
 'use client'
 import Link from "next/link"
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import PortfolioItem from "../elements/Portfolio/PortfolioItem"
+import PortfolioItemImage from "../elements/Portfolio/PortfolioItemImage"
 
 export default function CaseStudy2() {
     const [isTab, setIsTab] = useState(1)
 
     const handleTab = (i) => {
+        console.log(i)
         setIsTab(i)
     }
+
+    // function setPortfolio (portfolio){
+    //     return portfolio;
+    // }
+
+    const [portfolios, setPortfolios] = useState([])
+
+
+    useEffect( ()=>{
+        const url = 'http://127.0.0.1:8000/api/portfolio';
+        fetch (url).then(res => res.json()).then(data => setPortfolios(data.data))
+    }, [])
+    console.log(portfolios);
+
     return (
         <>
 
@@ -33,7 +50,9 @@ export default function CaseStudy2() {
                         <div className="row align-items-center g-xxl-10 g-xl-8 g-5">
                             <div className="col-lg-4">
                                 <div className="tab-content" id="nav-tabContent">
-                                    <div className={isTab === 1 ? "tab-pane fade show active" : "tab-pane fade"} >
+
+                                {portfolios.map(portfolio => <PortfolioItemImage isTab={isTab}  portfolio={portfolio} key={portfolio.id} /> )}
+                                    {/* <div className={isTab === 1 ? "tab-pane fade show active" : "tab-pane fade"} >
                                         <div className="tcase-thumb">
                                             <img src="/assets/img/case/tcase1.png" alt="img" />
                                         </div>
@@ -52,12 +71,15 @@ export default function CaseStudy2() {
                                         <div className="tcase-thumb">
                                             <img src="/assets/img/case/tcase2.png" alt="img" />
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-8">
                                 <div className="nav nav-tabs" id="nav-tab" role="tablist" data-toggle="tab-hover">
-                                    <div className={`nav-link px-0 pb-xxl-10 pb-xl-8 pb-lg-6 pb-4 ${isTab === 1 ? "active" : ""}`}
+
+                                    {portfolios.map(portfolio => <PortfolioItem isTab={isTab} handleTab={handleTab} portfolio={portfolio} key={portfolio.id} /> )}
+
+                                    {/* <div className={`nav-link px-0 pb-xxl-10 pb-xl-8 pb-lg-6 pb-4 ${isTab === 1 ? "active" : ""}`}
                                         onMouseOver={() => handleTab(1)}>
                                         <div className="info-left">
                                             <span className="devs text-start theme-clr d-block mb-xxl-4 mb-3">
@@ -124,7 +146,7 @@ export default function CaseStudy2() {
                                                 <i className="fas fa-arrow-up" />
                                             </span>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
